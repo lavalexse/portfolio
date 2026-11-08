@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0e1012" />
+  <meta name="description" content="Alexander Lavrikov — selected banners, motion creatives, AI avatars, lip sync videos and animated stickers. Creative portfolio." />
+  <meta property="og:title" content="Alexander Lavrikov — Selected Work" />
+  <meta property="og:description" content="Banners. Video creatives. AI avatars and lip sync. Motion stickers." />
+  <title>Alexander Lavrikov — Selected Work</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="projects-data.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="dark-theme">
+  <header class="site-header" id="top">
+    <a class="identity" href="#top" aria-label="Alexander Lavrikov, Home">
+      <img class="identity-logo" src="logo.svg" alt="" width="38" height="40" />
+      <span class="identity-name">ALEXANDER<br>LAVRIKOV</span>
+    </a>
+    <div class="header-right">
+      <div class="header-contacts" id="headerContacts" aria-label="Contacts"></div>
+      <a class="header-cv" id="headerCv" href="assets/cv/Lavrikov_CV.pdf" target="_blank" rel="noopener" data-i18n="viewCV">CV ↗</a>
+      <div class="language-select" role="group" aria-label="Language / Язык">
+        <button class="lang-btn" type="button" data-lang="ru" aria-pressed="true">RU</button>
+        <span class="lang-divide" aria-hidden="true">/</span>
+        <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="collection-nav shell" aria-label="Portfolio galleries">
+      <a class="collection-link is-active" href="#banners" data-nav="banners"><span class="collection-index">01</span><span data-i18n="tabBanners">Баннеры</span><span class="collection-qty">09</span></a>
+      <a class="collection-link" href="#videos" data-nav="videos"><span class="collection-index">02</span><span data-i18n="tabVideos">Видео-креативы</span><span class="collection-qty">03</span></a>
+      <a class="collection-link" href="#avatars" data-nav="avatars"><span class="collection-index">03</span><span data-i18n="tabAvatars">AI / Липсинк</span><span class="collection-qty">05</span></a>
+      <a class="collection-link" href="#stickers" data-nav="stickers"><span class="collection-index">04</span><span data-i18n="tabStickers">Стикеры</span><span class="collection-qty">08</span></a>
+    </nav>
+
+    <section class="gallery-section shell" id="banners" aria-labelledby="bannersHeading">
+      <div class="section-head"><div><span class="section-index">01 / 04</span><h2 id="bannersHeading" data-i18n="tabBanners">Баннеры</h2></div><span class="section-type" data-i18n="bannersSub">ГРАФИЧЕСКИЕ КРЕАТИВЫ · 1:1</span></div>
+      <div class="media-grid banner-grid" id="bannerGrid"></div>
+    </section>
+
+    <section class="gallery-section shell" id="videos" aria-labelledby="videosHeading">
+      <div class="section-head"><div><span class="section-index">02 / 04</span><h2 id="videosHeading" data-i18n="tabVideos">Видео-креативы</h2></div><span class="section-type" data-i18n="videosSub">ВЕРТИКАЛЬНАЯ ВИДЕОРЕКЛАМА · 9:16</span></div>
+      <div class="media-grid video-grid" id="videoGrid"></div>
+    </section>
+
+    <section class="gallery-section shell" id="avatars" aria-labelledby="avatarsHeading">
+      <div class="section-head"><div><span class="section-index">03 / 04</span><h2 id="avatarsHeading" data-i18n="tabAvatars">AI / Липсинк</h2></div><span class="section-type" data-i18n="avatarsSub">AI-АВАТАРЫ · ЛИПСИНК · ВИДЕОМОНТАЖ</span></div>
+      <div class="media-grid avatar-grid" id="avatarGrid"></div>
+    </section>
+
+    <section class="gallery-section shell" id="stickers" aria-labelledby="stickersHeading">
+      <div class="section-head"><div><span class="section-index">04 / 04</span><h2 id="stickersHeading" data-i18n="tabStickers">Стикеры</h2></div><span class="section-type" data-i18n="stickersSub">АНИМИРОВАННЫЕ БРЕНДОВЫЕ АССЕТЫ</span></div>
+      <div class="media-grid sticker-grid" id="stickerGrid"></div>
+    </section>
+
+    <footer class="site-footer shell" id="contact">
+      <div class="footer-top"><span data-i18n="footerHello">Есть проект? Давай обсудим.</span><div id="contactLinks" class="contact-links"></div></div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> ALEXANDER LAVRIKOV</span><a href="#top" data-i18n="backTop">НАВЕРХ ↑</a></div>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery viewer" hidden>
+    <div class="lightbox-head"><span class="lightbox-counter" id="lightboxCounter">01 / 09</span><button class="lightbox-close" type="button" id="closeLightbox" aria-label="Close"><span data-i18n="close">Закрыть</span><span class="x-icon" aria-hidden="true">×</span></button></div>
+    <button class="lightbox-arrow lightbox-prev" id="prevMedia" type="button" aria-label="Previous">←</button>
+    <div class="lightbox-view" id="lightboxView"></div>
+    <button class="lightbox-arrow lightbox-next" id="nextMedia" type="button" aria-label="Next">→</button>
+    <div class="lightbox-foot"><span id="lightboxTitle"></span><span id="lightboxCategory"></span></div>
+  </div>
+</body>
+</html>

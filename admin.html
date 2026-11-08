@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0e1012" />
+  <title>Studio / Управление портфолио — Alexander Lavrikov</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="admin.css" />
+  <script defer src="projects-data.js"></script>
+  <script defer src="zip-pack.js"></script>
+  <script defer src="admin.js"></script>
+</head>
+<body>
+<div class="admin-app">
+  <aside class="sidebar">
+    <a class="admin-brand" href="index.html" aria-label="Открыть портфолио"><img class="brand-logo" src="logo.svg" alt="" width="39" height="41" /><span class="brand-wordmark">ALEXANDER<br>LAVRIKOV</span></a>
+    <div class="sidebar-label">СТУДИЯ / CONTENT MANAGER</div>
+    <div class="side-heading">Коллекции</div>
+    <nav class="gallery-tabs" id="galleryTabs" aria-label="Галереи">
+      <button type="button" class="gallery-tab active" data-tab="banners"><span class="tab-icon">▦</span><span>Баннеры</span><b data-qty="banners">09</b></button>
+      <button type="button" class="gallery-tab" data-tab="videos"><span class="tab-icon">▷</span><span>Видео-креативы</span><b data-qty="videos">03</b></button>
+      <button type="button" class="gallery-tab" data-tab="avatars"><span class="tab-icon">◉</span><span>AI / Липсинк</span><b data-qty="avatars">05</b></button>
+      <button type="button" class="gallery-tab" data-tab="stickers"><span class="tab-icon">✳</span><span>Стикеры</span><b data-qty="stickers">08</b></button>
+    </nav>
+    <div class="sidebar-bottom"><span class="status-lamp"></span><div><strong>Локальный редактор</strong><p>Изменения появятся в сети после загрузки файлов на GitHub.</p></div></div>
+  </aside>
+  <main class="workspace">
+    <div class="topbar">
+      <div class="breadcrumb">PORTFOLIO <span>/</span> CONTENT <span>/</span> <strong>2026</strong></div>
+      <a class="site-link" href="index.html" target="_blank" rel="noopener">Открыть сайт <span>↗</span></a>
+    </div>
+    <section class="main-content">
+      <div class="page-title-row">
+        <div><div class="overline">КОНТЕНТ / УПРАВЛЕНИЕ</div><h1>Мои работы<span>.</span></h1><p class="subhead">Добавляй, редактируй и меняй порядок. Без кода.</p></div>
+        <span id="changesStatus" class="changes-status">Без изменений</span>
+      </div>
+      <div class="actionbar">
+        <div class="actionbar-left"><button id="openFolder" class="button button-secondary" type="button">◫ <span>Выбрать папку сайта</span></button><span id="folderState" class="folder-state">Папка не выбрана</span></div>
+        <div class="actionbar-right"><button id="resetChanges" class="button button-quiet" type="button">Сбросить</button><button id="exportZip" class="button button-secondary" type="button">↓ Экспорт ZIP</button><button id="saveFolder" class="button button-primary" type="button" disabled>Сохранить в папку</button></div>
+      </div>
+      <div class="helper-strip"><span class="helper-spark">✦</span><span>Быстрый способ: добавь работы → нажми «Экспорт ZIP» → распакуй архив поверх папки сайта → отправь изменения в GitHub. Или выбери папку сайта в Chrome/Edge и сохраняй прямо в неё.</span></div>
+      <section class="collection-editor" aria-labelledby="collectionHeading">
+        <div class="collection-heading"><div><div class="section-overline" id="sectionOverline">01 / 04 — GALLERY</div><h2 id="collectionHeading">Баннеры</h2><p id="collectionHelp">Перетаскивай карточки за ⠿, чтобы менять порядок.</p></div><div><button class="button button-primary add-button" id="addMedia" type="button"><span>＋</span> Добавить работы</button><input id="filePicker" type="file" accept="image/jpeg,image/png,image/webp,image/avif,video/mp4,video/webm,.mp4,.webm" multiple hidden /></div></div>
+        <div id="editorGrid" class="editor-grid" aria-live="polite"></div>
+      </section>
+      <section class="contact-editor" aria-labelledby="contactHeading">
+        <div class="section-overline">НАСТРОЙКИ / CONTACT</div>
+        <h2 id="contactHeading">Контакты</h2>
+        <p>Почта и Telegram отображаются в портфолио и кликабельны.</p>
+        <div class="contact-fields">
+          <label>Email<input id="contactEmail" type="email" placeholder="you@example.com" autocomplete="off" /></label>
+          <label>Telegram<input id="contactTelegram" type="text" placeholder="username (без @)" autocomplete="off" /></label>
+        </div>
+      </section>
+      <section class="cv-editor" aria-labelledby="cvHeading">
+        <div class="section-overline">НАСТРОЙКИ / CV</div>
+        <h2 id="cvHeading">Моё резюме</h2>
+        <p>При замене новый PDF попадёт в папку сайта через «Сохранить в папку» или «Экспорт ZIP».</p>
+        <div class="cv-editor-row">
+          <div class="cv-file-info"><span class="cv-file-icon">PDF</span><div><strong id="cvFileName">Lavrikov_CV.pdf</strong><small id="cvFileStatus">Текущее резюме на сайте</small></div></div>
+          <div class="cv-editor-actions">
+            <a id="cvView" class="button button-secondary" target="_blank" rel="noopener" href="assets/cv/Lavrikov_CV.pdf">Просмотреть ↗</a>
+            <button id="cvReplaceButton" class="button button-primary" type="button">Заменить CV</button>
+          </div>
+        </div>
+        <input id="cvFileInput" type="file" accept=".pdf,application/pdf" hidden />
+      </section>
+      <footer class="admin-footer"><span>© 2026 ALEXANDER LAVRIKOV / LOCAL STUDIO</span><span>NO CMS · NO SERVER · GITHUB PAGES</span></footer>
+    </section>
+  </main>
+</div>
+<dialog id="editDialog" class="edit-dialog" aria-labelledby="editTitle">
+  <div class="dialog-head"><div><span class="section-overline">WORK / EDITOR</span><h2 id="editTitle">Редактировать работу</h2></div><button type="button" id="closeEdit" class="close-edit" aria-label="Закрыть">×</button></div>
+  <form id="editForm">
+    <div class="edit-preview" id="editPreview"></div>
+    <div class="form-fields">
+      <label>Название (RU)<input id="editRu" name="ru" required maxlength="130" /></label>
+      <label>Title (EN)<input id="editEn" name="en" required maxlength="130" /></label>
+      <div class="field-pair"><label>Галерея<select id="editGallery" name="gallery"><option value="banners">Баннеры</option><option value="videos">Видео-креативы</option><option value="avatars">AI / Липсинк</option><option value="stickers">Стикеры</option></select></label><label>Тег / формат<input id="editTag" name="tag" placeholder="9:16 / AI VIDEO / MOTION" maxlength="40" /></label></div>
+      <label class="file-control">Заменить файл изображения / видео <input id="editReplaceFile" type="file" accept="image/jpeg,image/png,image/webp,image/avif,video/mp4,video/webm,.mp4,.webm" /></label>
+      <label class="file-control">Своя обложка видео (необязательно) <input id="editPosterFile" type="file" accept="image/*" /></label>
+      <label class="file-control">Короткое видео для hover (необязательно) <input id="editPreviewFile" type="file" accept="video/mp4,video/webm,.mp4,.webm" /></label>
+    </div>
+    <div class="dialog-actions"><button id="deleteEdit" class="button button-danger" type="button">Удалить работу</button><div class="dialog-right"><button id="cancelEdit" class="button button-secondary" type="button">Отмена</button><button class="button button-primary" type="submit">Сохранить изменения</button></div></div>
+  </form>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
