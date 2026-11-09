@@ -9,10 +9,10 @@
       {
         "id": "one-xbet-sports",
         "kind": "image",
-        "src": "assets/images/one-xbet-sports.webp",
+        "src": "assets/images/786543-vh7atl.webp",
         "title": {
-          "ru": "1XBET / Спорт",
-          "en": "1XBET / Sports"
+          "ru": "HyperLucky",
+          "en": "HyperLucky"
         },
         "tag": "1:1"
       },
@@ -29,20 +29,20 @@
       {
         "id": "fraga-flight",
         "kind": "image",
-        "src": "assets/images/fraga-flight.webp",
+        "src": "assets/images/786542-1-erbjsh.webp",
         "title": {
-          "ru": "FRAGA / Самолёт",
-          "en": "FRAGA / Flight"
+          "ru": "DBbet",
+          "en": "DBbet"
         },
         "tag": "1:1"
       },
       {
         "id": "leon-jester",
         "kind": "image",
-        "src": "assets/images/leon-jester.webp",
+        "src": "assets/images/banner-8-2-haecp8.webp",
         "title": {
-          "ru": "LEON / Джокер",
-          "en": "LEON / Jester"
+          "ru": "DaleWin",
+          "en": "DaleWin"
         },
         "tag": "1:1"
       },
@@ -57,12 +57,22 @@
         "tag": "1:1"
       },
       {
+        "id": "fraga-queen",
+        "kind": "image",
+        "src": "assets/images/fraga-queen.webp",
+        "title": {
+          "ru": "FRAGA / Казино",
+          "en": "FRAGA / Casino"
+        },
+        "tag": "1:1"
+      },
+      {
         "id": "leon-classic",
         "kind": "image",
-        "src": "assets/images/leon-classic.webp",
+        "src": "assets/images/ezwin88-9mk11x.webp",
         "title": {
-          "ru": "LEON / Бонус",
-          "en": "LEON / Welcome"
+          "ru": "GETX",
+          "en": "GETX"
         },
         "tag": "1:1"
       },
@@ -73,26 +83,6 @@
         "title": {
           "ru": "Epicstar / Gold",
           "en": "Epicstar / Gold"
-        },
-        "tag": "1:1"
-      },
-      {
-        "id": "leon-sports",
-        "kind": "image",
-        "src": "assets/images/leon-sports.webp",
-        "title": {
-          "ru": "LEON / Спорт",
-          "en": "LEON / Sports"
-        },
-        "tag": "1:1"
-      },
-      {
-        "id": "fraga-queen",
-        "kind": "image",
-        "src": "assets/images/fraga-queen.webp",
-        "title": {
-          "ru": "FRAGA / Казино",
-          "en": "FRAGA / Casino"
         },
         "tag": "1:1"
       }
@@ -112,24 +102,35 @@
       {
         "id": "jokers-jewels",
         "kind": "video",
-        "src": "assets/video/jokers-jewels.mp4",
-        "poster": "assets/posters/jokers-jewels.webp",
+        "src": "assets/video/img-0222-f88r27.mp4",
         "title": {
-          "ru": "Joker’s Jewels",
-          "en": "Joker’s Jewels"
+          "ru": "Coin Volcano",
+          "en": "Coin Volcano"
         },
-        "tag": "9:16"
+        "tag": "9:16",
+        "poster": "assets/posters/img-0222-lbhxwk.webp"
       },
       {
         "id": "big-bass",
         "kind": "video",
-        "src": "assets/video/big-bass.mp4",
-        "poster": "assets/posters/big-bass.webp",
+        "src": "assets/video/img-0223-k85ew7.mp4",
         "title": {
-          "ru": "Big Bass Splash",
-          "en": "Big Bass Splash"
+          "ru": "Coin Strike",
+          "en": "Coin Strike"
         },
-        "tag": "9:16"
+        "tag": "9:16",
+        "poster": "assets/posters/img-0223-6pdkpz.webp"
+      },
+      {
+        "id": "9x16-bigbass",
+        "kind": "video",
+        "src": "assets/video/9x16-bigbass-b3udrm.mp4",
+        "title": {
+          "ru": "9x16 BIGBASS",
+          "en": "9x16 BIGBASS"
+        },
+        "tag": "9:16",
+        "poster": "assets/posters/9x16-bigbass-jagamo.webp"
       }
     ],
     "avatars": [
@@ -196,28 +197,6 @@
     ],
     "stickers": [
       {
-        "id": "1xbit",
-        "kind": "video",
-        "src": "assets/video/1xbit.mp4",
-        "poster": "assets/posters/1xbit.webp",
-        "title": {
-          "ru": "1xBit",
-          "en": "1xBit"
-        },
-        "tag": "ANIMATED"
-      },
-      {
-        "id": "dalewin",
-        "kind": "video",
-        "src": "assets/video/dalewin.mp4",
-        "poster": "assets/posters/dalewin.webp",
-        "title": {
-          "ru": "DaleWin",
-          "en": "DaleWin"
-        },
-        "tag": "ANIMATED"
-      },
-      {
         "id": "dicebet",
         "kind": "video",
         "src": "assets/video/dicebet.mp4",
@@ -229,37 +208,59 @@
         "tag": "ANIMATED"
       },
       {
+        "id": "1xbit",
+        "kind": "video",
+        "src": "assets/video/1xbit1-rlpn2x.mp4",
+        "title": {
+          "ru": "1xBit",
+          "en": "1xBit"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/1xbit1-32zdeg.webp"
+      },
+      {
+        "id": "dalewin",
+        "kind": "video",
+        "src": "assets/video/fortune-rvcext.mp4",
+        "title": {
+          "ru": "Fortune",
+          "en": "Fortune"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/fortune-i1e4a8.webp"
+      },
+      {
         "id": "1xbet",
         "kind": "video",
-        "src": "assets/video/1xbet.mp4",
-        "poster": "assets/posters/1xbet.webp",
+        "src": "assets/video/dicebet-h4oz6n.mp4",
         "title": {
-          "ru": "1XBET",
+          "ru": "DiceBet",
           "en": "1XBET"
         },
-        "tag": "ANIMATED"
+        "tag": "ANIMATED",
+        "poster": "assets/posters/dicebet-ih1o9r.webp"
       },
       {
         "id": "dalewin-2",
         "kind": "video",
-        "src": "assets/video/dalewin-2.mp4",
-        "poster": "assets/posters/dalewin-2.webp",
+        "src": "assets/video/1xbit3-sticker-48ympm.mp4",
         "title": {
-          "ru": "DaleWin / Promo",
-          "en": "DaleWin / Promo"
+          "ru": "1xbit",
+          "en": "1xbit"
         },
-        "tag": "ANIMATED"
+        "tag": "ANIMATED",
+        "poster": "assets/posters/1xbit3-sticker-cteqww.webp"
       },
       {
         "id": "dicebet-2",
         "kind": "video",
-        "src": "assets/video/dicebet-2.mp4",
-        "poster": "assets/posters/dicebet-2.webp",
+        "src": "assets/video/1xbit2-uf1di3.mp4",
         "title": {
-          "ru": "Dicebet / 7777",
-          "en": "Dicebet / 7777"
+          "ru": "1xbit",
+          "en": "1xbit"
         },
-        "tag": "ANIMATED"
+        "tag": "ANIMATED",
+        "poster": "assets/posters/1xbit2-nodpgh.webp"
       },
       {
         "id": "creedroomz-wide",
@@ -275,13 +276,90 @@
       {
         "id": "creedroomz",
         "kind": "video",
-        "src": "assets/video/creedroomz.mp4",
-        "poster": "assets/posters/creedroomz.webp",
+        "src": "assets/video/leon-gr1-5avkpw.mp4",
         "title": {
-          "ru": "Creedroomz / Vertical",
-          "en": "Creedroomz / Vertical"
+          "ru": "Leon GR",
+          "en": "Leon GR"
         },
-        "tag": "ANIMATED"
+        "tag": "ANIMATED",
+        "poster": "assets/posters/leon-gr1-v6ejdg.webp"
+      },
+      {
+        "id": "leon-italy",
+        "kind": "video",
+        "src": "assets/video/leon-italy-63rgmz.mp4",
+        "title": {
+          "ru": "leon italy",
+          "en": "leon italy"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/leon-italy-oko1ak.webp"
+      },
+      {
+        "id": "paripesa1",
+        "kind": "video",
+        "src": "assets/video/paripesa1-gyrkqc.mp4",
+        "title": {
+          "ru": "paripesa1",
+          "en": "paripesa1"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/paripesa1-1rbbgr.webp"
+      },
+      {
+        "id": "paripesa-2",
+        "kind": "video",
+        "src": "assets/video/paripesa-2-m307cl.mp4",
+        "title": {
+          "ru": "paripesa (2)",
+          "en": "paripesa (2)"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/paripesa-2-9c3vcw.webp"
+      },
+      {
+        "id": "pascal",
+        "kind": "video",
+        "src": "assets/video/pascal-syxyrf.mp4",
+        "title": {
+          "ru": "pascal",
+          "en": "pascal"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/pascal-loxu23.webp"
+      },
+      {
+        "id": "riobet",
+        "kind": "video",
+        "src": "assets/video/riobet-8cx2vs.mp4",
+        "title": {
+          "ru": "riobet",
+          "en": "riobet"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/riobet-fzuhvs.webp"
+      },
+      {
+        "id": "au1",
+        "kind": "video",
+        "src": "assets/video/au1-cmacun.mp4",
+        "title": {
+          "ru": "леон AU1",
+          "en": "леон AU1"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/au1-nust88.webp"
+      },
+      {
+        "id": "au2",
+        "kind": "video",
+        "src": "assets/video/au2-cd5azd.mp4",
+        "title": {
+          "ru": "леон AU2",
+          "en": "леон AU2"
+        },
+        "tag": "ANIMATED",
+        "poster": "assets/posters/au2-51feg0.webp"
       }
     ]
   },
